@@ -186,53 +186,15 @@ return [
         'default' => [
         'className' => 'Smtp',
         // The following keys are used in SMTP transports
-        'host' => 'mail.soyreef.com',
+        'host' => 'mail.******.com',
         'port' => 587,
         //'timeout' => 30,
-        'username' => 'efectivale2022@soyreef.com',
-        'password' => 'tcXi1$]p(6vy',
+        'username' => '*******@*******.com',
+        'password' => '********',
         'client' => null,
         'tls' => true,
         ],
     ],
-     /*
-    'EmailTransport' => [
-        'default' => [
-        'className' => 'Smtp',
-        'host'=> 'ssl://smtp.gmail.com',
-        'port' =>'465',
-        'username'=>'efectivale2022@gmail.com',
-        'password'=>'Qwaszx.2020',
-        'client' => null,
-        'tls' => null,
-        'log' => true,
-          'context' => [
-            'ssl' => [
-                'verify_peer' => false,
-                'verify_peer_name' => false,
-                'allow_self_signed' => true
-            ]
-          ]
-        ],
-    ],
-    */
-    /*
-    'EmailTransport' => [
-        'default' => [
-        'className' => 'Smtp',
-        // The following keys are used in SMTP transports
-        'host' => 'email-smtp.us-east-2.amazonaws.com',
-        'port' => 587,
-        //'timeout' => 30,
-        'username' => 'AKIAT4IBQDK32YUW7RD3',
-        'password' => 'BIRPDnDmEF64OaOj9HEAC2NsNZeRKdNwQuYh7xFdWdDF',
-        //'username' => 'AKIAIR26DW5GMZINBX4A',
-        //'password' => 'Au7u98mf72TAJcLTQh8+eNqDkz13Rm6tF9itVPIIacuz',
-        'client' => null,
-        'tls' => true,
-        ],
-    ],
-    */
     # !!!!!!
     # Configuración de Email:
     # Usar el método 'configEmail' del behavior 'Utilities' a través de cualquier modelo
@@ -275,16 +237,11 @@ return [
             'className' => 'Cake\Database\Connection',
             'driver' => 'Cake\Database\Driver\Mysql',
             'persistent' => false,
-            /* LOCAL */
-            'host' => 'localhost',
-            'username' => 'root',
-            'password' => 'Qwaszx.2020',
-            'database' => 'efectivale',
             /* SERVER */
             /*
-            'username' => 'weenets_efectivale',
-            'password' => '-E5s3gCiw)(F',
-            'database' => 'weenets_efectivale',
+            'username' => '******_efectivale',
+            'password' => '*******',
+            'database' => '*****_efectivale',
             */
             'encoding' => 'utf8',
 
