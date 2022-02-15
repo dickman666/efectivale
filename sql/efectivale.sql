@@ -394,6 +394,6 @@ CREATE TABLE `users`  (
 -- ----------------------------
 -- Records of users
 -- ----------------------------
-INSERT INTO `users` VALUES (1, '1', 'admin', '$2y$10$aF//UlVwr1tl6FXGNGGP1O4nzUv3bI8Bb4ZQgvBmrPyJJ9n0sr.Qa', 'christian.sanchez@weenets.com', 'Christian Yahir', 'Sánchez', 'Carrillo', 'M', NULL, '2002-04-04', '2020-04-04', 1, '2022-02-12 01:13:55', '+52 (81) 8252 8058', 'DEVELOP', 1, '127.0.0.1', 1, 1, 0, NULL, '2022-02-12 01:13:55', NULL, NULL, NULL, NULL);
+INSERT INTO `users` VALUES (1, '1', 'admin', '$2y$10$aF//UlVwr1tl6FXGNGGP1O4nzUv3bI8Bb4ZQgvBmrPyJJ9n0sr.Qa', 'christian.sanchez@weenets.com', 'Christian Yahir', 'Sánchez', 'Carrillo', 'M', NULL, '2002-04-04', '2020-04-04', 1, '2022-02-12 01:13:55', '+52 (55) 2088 0685', 'DEVELOP', 1, '127.0.0.1', 1, 1, 0, NULL, '2022-02-12 01:13:55', NULL, NULL, NULL, NULL);
 
 SET FOREIGN_KEY_CHECKS = 1;
